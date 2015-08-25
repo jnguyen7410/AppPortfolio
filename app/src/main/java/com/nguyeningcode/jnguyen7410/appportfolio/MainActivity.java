@@ -13,7 +13,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     Button b1, b2, b3, b4, b5, b6;
-    public static ArrayMap<String, String> stringMap;
+    private static ArrayMap<Integer, String> stringMap;
 
 
     @Override
@@ -21,13 +21,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        stringMap = new ArrayMap<String, String>(6);
-        stringMap.put("b1", "This will launch my Spotify Steamer!");
-        stringMap.put("b2", "This will launch my Football Scores App!");
-        stringMap.put("b3", "This will launch my Library App!");
-        stringMap.put("b4", "This will launch my Build It Bigger App!");
-        stringMap.put("b5", "This will launch my XYZ Reader App!");
-        stringMap.put("b6", "This will launch my Capstone App!");
+        stringMap = new ArrayMap<>(6);
+        stringMap.put(R.id.b1, "This will launch my Spotify Steamer!");
+        stringMap.put(R.id.b2, "This will launch my Football Scores App!");
+        stringMap.put(R.id.b3, "This will launch my Library App!");
+        stringMap.put(R.id.b4, "This will launch my Build It Bigger App!");
+        stringMap.put(R.id.b5, "This will launch my XYZ Reader App!");
+        stringMap.put(R.id.b6, "This will launch my Capstone App!");
 
         b1 = (Button) findViewById(R.id.b1);
         b2 = (Button) findViewById(R.id.b2);
