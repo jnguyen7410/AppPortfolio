@@ -29,7 +29,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Spotify Steamer"
+        android:text="Spotify Streamer"
         android:id="@+id/b1"
         android:layout_marginTop="51dp"
         android:layout_below="@+id/textView"

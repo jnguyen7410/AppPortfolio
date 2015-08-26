@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         stringMap = new ArrayMap<>(6);
-        stringMap.put(R.id.b1, "This will launch my Spotify Steamer!");
+        stringMap.put(R.id.b1, "This will launch my Spotify Streamer!");
         stringMap.put(R.id.b2, "This will launch my Football Scores App!");
         stringMap.put(R.id.b3, "This will launch my Library App!");
         stringMap.put(R.id.b4, "This will launch my Build It Bigger App!");
